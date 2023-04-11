@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "src",
+    "public": "dist/adrian-valbuena",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -22,5 +22,6 @@
   },
   "remoteconfig": {
     "template": "remoteconfig.template.json"
-  }
+  },
+  "emulators": {}
 }

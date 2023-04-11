@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "adrian-valbuena": {
+      "hosting": {
+        "adrian-valbuena": [
+          "adrian-valbuena"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "adrian-valbuena"
+  }
+}

@@ -132,6 +132,7 @@
   },
   "defaultProject": "adrian-valbuena",
   "cli": {
+    "analytics": "f40b18f0-0e23-4af2-8577-b0d8649732af",
     "defaultCollection": "@angular-eslint/schematics"
   }
 }

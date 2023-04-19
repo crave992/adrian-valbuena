@@ -25,3 +25,10 @@ h1,h2,h3,h4,h5,p{
   font-family: $font-logo !important;
   color: $primary-color;
 }
+
+header {
+  background: black;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}

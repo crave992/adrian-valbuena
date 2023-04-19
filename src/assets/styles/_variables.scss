@@ -1,4 +1,4 @@
-$font-logo: 'Dancing Script', cursive;
+$font-logo: 'Mokoto Glitch Mark 2';
 
 $primary-color: #B71C1C;
 $secondary-color: #1B5E20;
@@ -7,3 +7,30 @@ $secondary-color:#66BB6A;
 $light-grey-color: #BDBDBD;
 $dark-grey-color: #212121;
 $black-color: #000000;
+
+@mixin devices ($breakpoint) { 
+  
+  @if $breakpoint == desktop {    
+    @media only screen and (max-width: 1200px){
+      @content;
+    }
+  }
+
+  @if $breakpoint == laptop {    
+    @media only screen and (max-width: 1024px){
+      @content;
+    }
+  }
+  
+  @if $breakpoint == tablet {    
+    @media only screen and (max-width: 768px){
+      @content;
+    }
+  }
+ 
+  @if $breakpoint == mobile {
+    @media only screen and (max-width: 480px) {
+      @content;
+    }
+  }
+}

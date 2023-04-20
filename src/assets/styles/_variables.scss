@@ -10,13 +10,13 @@ $black-color: #000000;
 
 @mixin devices ($breakpoint) { 
   
-  @if $breakpoint == desktop {    
+  @if $breakpoint == laptop {    
     @media only screen and (max-width: 1200px){
       @content;
     }
   }
 
-  @if $breakpoint == laptop {    
+  @if $breakpoint == small-laptop {    
     @media only screen and (max-width: 1024px){
       @content;
     }

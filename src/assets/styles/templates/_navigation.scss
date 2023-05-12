@@ -1,5 +1,6 @@
 .nav-link {
   color: $primary-color;
+  text-transform: uppercase;
 
   &.active {
     border-bottom: 2px solid $secondary-color;

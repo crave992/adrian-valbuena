@@ -10,7 +10,12 @@ const routes: Routes = [
     children: [
       {
         path:'',
-        component: HomeComponent
+        component: HomeComponent,
+        data: {
+          title: 'Home',
+          description: 'Adrian Jairus Valbuena, the Web Developer',
+          keywords: 'adrian, web developer, adrian web developer, valbuena web developer'
+        }
       }
     ]
   }

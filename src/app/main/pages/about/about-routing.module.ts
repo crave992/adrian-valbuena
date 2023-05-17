@@ -10,7 +10,12 @@ const routes: Routes = [
     children: [
       {
         path:'',
-        component: AboutComponent
+        component: AboutComponent,
+        data: {
+          title: 'About Us',
+          description: 'Learn about our company and mission',
+          keywords: 'about adrian, adrian mission, adrian vision'
+        }
       }
     ]
   }
